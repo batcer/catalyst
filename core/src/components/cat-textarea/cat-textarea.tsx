@@ -109,6 +109,11 @@ export class CatTextarea {
   @Prop() rows = 3;
 
   /**
+   * Whether the textarea should automatically grow and shrink to fit its content.
+   */
+  @Prop() autosizing = true;
+
+  /**
    * The initial value of the control.
    */
   @Prop({ mutable: true }) value?: string;
@@ -160,7 +165,9 @@ export class CatTextarea {
   }
 
   componentDidLoad(): void {
-    autosize(this.textarea);
+    if (this.autosizing) {
+      autosize(this.textarea);
+    }
   }
 
   /**

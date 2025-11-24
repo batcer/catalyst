@@ -1,5 +1,22 @@
 # Changelog
 
+## [14.0.0](https://github.com/batcer/catalyst/compare/catalyst-angular-formly-v13.4.0...catalyst-angular-formly-v14.0.0) (2025-11-24)
+
+
+### Features
+
+* **angular:** add formly date element ([#573](https://github.com/batcer/catalyst/issues/573)) ([896cd9d](https://github.com/batcer/catalyst/commit/896cd9d56c16e318b0cd9d1431647a10930b97c2))
+* **angular:** adjust peer dependency requirements ([3b3af38](https://github.com/batcer/catalyst/commit/3b3af38571b8a6dce4cd5da3f2a38c5311776926))
+
+
+### Bug Fixes
+
+* **angular-formly:** add missing errorInit prop to formly bindings ([77ad994](https://github.com/batcer/catalyst/commit/77ad99422935de2e43d3f119a6073bb1c019fe50))
+* **core:** add required marker to checkbox formly element ([#577](https://github.com/batcer/catalyst/issues/577)) ([bdc2fd8](https://github.com/batcer/catalyst/commit/bdc2fd8358909712c9fafe50c995c0253528b704))
+* **core:** empty commit to shove the stuck release workflow ([f558225](https://github.com/batcer/catalyst/commit/f55822599ab27a832d97fb93c45d561c7d02bbac))
+* **core:** improve formly handling and select connector utils ([33ccc89](https://github.com/batcer/catalyst/commit/33ccc8991f194ad7fc626162e8d4bc7d053447ee))
+* **core:** prevent catChange event emission on select initialization ([8e7cfa6](https://github.com/batcer/catalyst/commit/8e7cfa6c5cf63ce57fa631e22c79e1e926d74940))
+
 ## [13.4.0](https://github.com/haiilo/catalyst/compare/catalyst-angular-formly-v13.3.2...catalyst-angular-formly-v13.4.0) (2025-11-14)
 
 

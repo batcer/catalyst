@@ -1,5 +1,39 @@
 # Changelog
 
+## [14.0.0](https://github.com/batcer/catalyst/compare/catalyst-tokens-v13.4.0...catalyst-tokens-v14.0.0) (2025-11-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* **tokens:** rename --font-family-body to font-family-base
+* **core:** full rework of editorial typo styles incl. removal of default margins ([#405](https://github.com/batcer/catalyst/issues/405))
+
+### Features
+
+* add new info state to theming ([3c8c2ba](https://github.com/batcer/catalyst/commit/3c8c2ba41fb38e2158de8809ec816d4df31e8890))
+* adjust font sources to contain the correct sun emoji ([42389eb](https://github.com/batcer/catalyst/commit/42389eb5d697e94ed07fa873ed206fdeead00e3a))
+* **core:** add border for cards ([#685](https://github.com/batcer/catalyst/issues/685)) ([d3206af](https://github.com/batcer/catalyst/commit/d3206af28b851ab9d0161acb8b114f4fd4d471c5))
+* **core:** full rework of editorial typo styles incl. removal of default margins ([#405](https://github.com/batcer/catalyst/issues/405)) ([70e6b9e](https://github.com/batcer/catalyst/commit/70e6b9ea687f68fad5f1fa6da42e1f917133d584))
+* **core:** update dependencies ([2bfadd1](https://github.com/batcer/catalyst/commit/2bfadd1aa3fe38bb3f1ecbe8ff329f77d6d28555))
+* **core:** update dependencies ([#531](https://github.com/batcer/catalyst/issues/531)) ([df37388](https://github.com/batcer/catalyst/commit/df373885b88b221c3950f7ac23df77b2990ac428))
+* new look for alerts and badges ([#396](https://github.com/batcer/catalyst/issues/396)) ([b572c8e](https://github.com/batcer/catalyst/commit/b572c8efe546dfef57756f6ab25575467edcac1e))
+* **tokens:** add hex colors as token output ([94919c2](https://github.com/batcer/catalyst/commit/94919c2ff77bf5062f6cfda8dc403694ff0d6de5))
+* **tokens:** update styledictionary ([e97cbcd](https://github.com/batcer/catalyst/commit/e97cbcd70d4d613aa8c16f298afd8bbff41cb9f4))
+
+
+### Bug Fixes
+
+* **core:** empty commit to shove the stuck release workflow ([f558225](https://github.com/batcer/catalyst/commit/f55822599ab27a832d97fb93c45d561c7d02bbac))
+* **core:** link buttons should react to correct CSS variable ([#759](https://github.com/batcer/catalyst/issues/759)) ([0682233](https://github.com/batcer/catalyst/commit/0682233f8c7d3c6c6dc7039de43131c6e1e0a6bc))
+* **core:** prevent catChange event emission on select initialization ([8e7cfa6](https://github.com/batcer/catalyst/commit/8e7cfa6c5cf63ce57fa631e22c79e1e926d74940))
+* **core:** reset card border ([6b93f4e](https://github.com/batcer/catalyst/commit/6b93f4eeb513a7b94b38295befd4d78ab3c5bd93))
+* **tokens:** fix broken color variables ([9de1247](https://github.com/batcer/catalyst/commit/9de12470e8e3a50f40e54c4e115b368177de7808))
+* **tokens:** fix broken token build ([be1d67c](https://github.com/batcer/catalyst/commit/be1d67c69774541443028d896cc4013b2f459673))
+* **tokens:** fix wrong CSS property names for info theme ([2ba027d](https://github.com/batcer/catalyst/commit/2ba027dd8554210fcc97214c6bad8d461cc838d2))
+* **tokens:** readme typo fix ([194c01c](https://github.com/batcer/catalyst/commit/194c01c2fe9aa286512753d4e61fa79786c1c991))
+* **tokens:** rename --font-family-body to font-family-base ([c6804d9](https://github.com/batcer/catalyst/commit/c6804d93a6f96294f36c9c79fce557eac3940f67))
+* **tokens:** update dev dependencies ([7cd9290](https://github.com/batcer/catalyst/commit/7cd92900f72c294f3e0b1081133f7a92499b6442))
+
 ## [13.4.0](https://github.com/haiilo/catalyst/compare/catalyst-tokens-v13.3.2...catalyst-tokens-v13.4.0) (2025-11-14)
 
 

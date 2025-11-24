@@ -1,5 +1,21 @@
 # Changelog
 
+## [14.0.0](https://github.com/batcer/catalyst/compare/catalyst-react-v13.4.0...catalyst-react-v14.0.0) (2025-11-24)
+
+
+### Features
+
+* **core:** add new cat-date picker and cat-time picker ([#486](https://github.com/batcer/catalyst/issues/486)) ([5b97a7b](https://github.com/batcer/catalyst/commit/5b97a7b890dd5e6ffbf9ca92eb7cb4de6f2bd064))
+* **core:** enable tag inputs without dropdowns ([#586](https://github.com/batcer/catalyst/issues/586)) ([e3b76e3](https://github.com/batcer/catalyst/commit/e3b76e32ecfe4152242b9568b977d0ada42648ca))
+* **core:** implement new inline date picker ([#491](https://github.com/batcer/catalyst/issues/491)) ([44253a8](https://github.com/batcer/catalyst/commit/44253a8ac53d080189e29cd19a9570f042b6b08e))
+* **react:** update typescript version in react set of packages ([#777](https://github.com/batcer/catalyst/issues/777)) ([b541ead](https://github.com/batcer/catalyst/commit/b541ead80f7a359d8f2fd790d6376becc31d1c56))
+
+
+### Bug Fixes
+
+* **core:** empty commit to shove the stuck release workflow ([f558225](https://github.com/batcer/catalyst/commit/f55822599ab27a832d97fb93c45d561c7d02bbac))
+* **core:** prevent catChange event emission on select initialization ([8e7cfa6](https://github.com/batcer/catalyst/commit/8e7cfa6c5cf63ce57fa631e22c79e1e926d74940))
+
 ## [13.4.0](https://github.com/haiilo/catalyst/compare/catalyst-react-v13.3.2...catalyst-react-v13.4.0) (2025-11-14)
 
 
